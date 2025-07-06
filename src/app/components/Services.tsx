@@ -25,10 +25,11 @@ export default function Services() {
 
   return (
     <section
-    id="services"
-    className="min-h-screen bg-gradient-to-br from-cyan-100 to-green-100 py-20 px-6 md:px-16">
+      id="services"
+      className="min-h-screen bg-gradient-to-br from-cyan-50 to-white py-20 px-6 md:px-16"
+    >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-5xl font-bold text-center text-green-900 mb-16">
+        <h2 className="text-5xl font-bold text-center text-cyan-800 mb-16">
           Services & Specialties
         </h2>
 
@@ -36,15 +37,15 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-[1.03] transition-all duration-300"
+              className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300"
             >
               <img
                 src={service.image}
                 alt={service.title}
                 className="w-full h-72 object-cover"
               />
-              <div className="p-8 bg-gradient-to-b from-cyan-50 to-green-50">
-                <h3 className="text-2xl font-bold text-green-800 mb-4">
+              <div className="p-8 bg-gradient-to-b from-cyan-50 to-white">
+                <h3 className="text-2xl font-semibold text-cyan-700 mb-4">
                   {service.title}
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-[1.05rem]">
