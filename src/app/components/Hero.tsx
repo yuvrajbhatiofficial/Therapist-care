@@ -3,11 +3,11 @@ export default function Hero() {
       <section
         id="hero"
         className="min-h-screen bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center text-center px-4 "
-        style={{ backgroundImage: "url('https://main.d1hiqvipguwtuq.amplifyapp.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-b.79c9c9cd.jpg&w=1080&q=75')",
+        style={{ backgroundImage: "url('https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg')",
      }}
       >
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-6xl  font-extrabold text-white drop-shadow-2xl mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-2xl mb-6 leading-tight">
             Your Wellness Journey Begins Here
           </h1>
           <h2 className="text-xl md:text-2xl text-white mb-8">
